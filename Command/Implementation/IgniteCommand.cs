@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Command.Base;
 
-namespace Command.Base
+namespace Command.Implementation
 {
     public class IgniteCommmand : ICommand
     {
