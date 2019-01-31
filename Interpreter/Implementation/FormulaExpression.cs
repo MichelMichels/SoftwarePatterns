@@ -45,10 +45,10 @@ namespace Interpreter.Implementation
             {
                 foreach(var operationBySymbol in OperationsBySymbol)
                 {
+                    int openBracketsCount = 0, closeBracketsCount = 0;
+
                     for (int i = 0; i < context.Length; i++)
                     {
-                        int openBracketsCount = 0, closeBracketsCount = 0;
-
                         if (context[i] == '(')
                             openBracketsCount++;
 
