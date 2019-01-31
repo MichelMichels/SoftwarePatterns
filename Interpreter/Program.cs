@@ -1,4 +1,6 @@
 ﻿using System;
+using Interpreter.Base.Interfaces;
+using Interpreter.Implementation;
 
 namespace Interpreter
 {
@@ -6,7 +8,17 @@ namespace Interpreter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IExpression expr;
+
+            while(true)
+            {
+                Console.Write("Give formula: ");
+                var formula = Console.ReadLine();
+                expr = FormulaExpression.Make(formula);
+                
+                Console.WriteLine(expr.Interpret());
+                Console.WriteLine();
+            }
         }
     }
 }
