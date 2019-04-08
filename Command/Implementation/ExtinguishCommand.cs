@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Command.Base;
+using SoftwarePatterns.Behavioral.Command.Base;
 
-namespace Command.Implementation
+namespace SoftwarePatterns.Behavioral.Command.Implementation
 {
     public class ExtinguishCommand : ICommand
     {

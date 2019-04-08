@@ -1,10 +1,10 @@
-﻿using Iterator.Base.Interfaces;
+﻿using SoftwarePatterns.Behavioral.Iterator.Base.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Iterator.Implementation
+namespace SoftwarePatterns.Behavioral.Iterator.Implementation
 {
     public class Iterator<T> : IIterator<T>
     {

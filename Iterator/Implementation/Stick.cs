@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Iterator.Implementation
+namespace SoftwarePatterns.Behavioral.Iterator.Implementation
 {
     public class Stick
     {      

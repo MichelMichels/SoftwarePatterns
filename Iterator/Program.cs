@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Iterator.Implementation;
+using SoftwarePatterns.Behavioral.Iterator.Implementation;
 
-namespace Iterator
+namespace SoftwarePatterns.Behavioral.Iterator
 {
     class Program
     {

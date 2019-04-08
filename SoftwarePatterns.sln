@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Memento\Memento.csproj", "{145938A6-AFFA-486C-AAD4-8CC4C13A1BAF}"
 EndProject
@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Interpreter\Interpreter.csproj", "{C9CD5B4B-5421-4D78-9E57-E8353F9172D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{87732EF1-669A-4E4E-8B2A-501CC367A015}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{87732EF1-669A-4E4E-8B2A-501CC367A015}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{46DF79C3-2BEC-4383-8681-3FE99398231D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{46DF79C3-2BEC-4383-8681-3FE99398231D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{97759316-D605-4DDE-B69E-759E5947CFC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +50,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{145938A6-AFFA-486C-AAD4-8CC4C13A1BAF} = {97759316-D605-4DDE-B69E-759E5947CFC0}
+		{120DA806-D6B9-4612-AACA-6DEECE42A6BF} = {97759316-D605-4DDE-B69E-759E5947CFC0}
+		{95064271-E47D-4F39-8E48-90A562A4E051} = {97759316-D605-4DDE-B69E-759E5947CFC0}
+		{C9CD5B4B-5421-4D78-9E57-E8353F9172D3} = {97759316-D605-4DDE-B69E-759E5947CFC0}
+		{87732EF1-669A-4E4E-8B2A-501CC367A015} = {97759316-D605-4DDE-B69E-759E5947CFC0}
+		{46DF79C3-2BEC-4383-8681-3FE99398231D} = {97759316-D605-4DDE-B69E-759E5947CFC0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {995828FF-7A3D-48D8-B65A-7B7313F5BCFF}

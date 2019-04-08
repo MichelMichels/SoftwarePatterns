@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
-using Interpreter.Base.Interfaces;
-using Interpreter.Base.Enums;
-using Interpreter.Extensions;
+using SoftwarePatterns.Behavioral.Interpreter.Base.Interfaces;
+using SoftwarePatterns.Behavioral.Interpreter.Base.Enums;
+using SoftwarePatterns.Behavioral.Interpreter.Extensions;
 
-namespace Interpreter.Implementation
+namespace SoftwarePatterns.Behavioral.Interpreter.Implementation
 {
     public class FormulaExpression : IExpression
     {

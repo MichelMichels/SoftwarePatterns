@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using MichelsMichels.SoftwarePatterns.ChainOfResponsibility.Base;
+using SoftwarePatterns.Behavioral.ChainOfResponsibility.Base;
 
-namespace MichelsMichels.SoftwarePatterns.ChainOfResponsibility.Implementation
+namespace SoftwarePatterns.Behavioral.ChainOfResponsibility.Implementation
 {
     public class Major : Handler<string>
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Mediator.Interfaces;
+using SoftwarePatterns.Behavioral.Mediator.Interfaces;
 
-namespace Mediator.Implementation
+namespace SoftwarePatterns.Behavioral.Mediator.Implementation
 {
     public class ChatClient : IChatClient
     {

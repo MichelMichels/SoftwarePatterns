@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MichelsMichels.SoftwarePatterns.ChainOfResponsibility.Base
+namespace SoftwarePatterns.Behavioral.ChainOfResponsibility.Base
 {
     public abstract class Handler<TParam> : IHandler<TParam>
     {

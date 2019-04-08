@@ -1,7 +1,7 @@
-﻿using Command.Implementation;
+﻿using SoftwarePatterns.Behavioral.Command.Implementation;
 using System;
 
-namespace Command
+namespace SoftwarePatterns.Behavioral.Command
 {
     class Program
     {

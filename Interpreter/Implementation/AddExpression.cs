@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Interpreter.Base;
-using Interpreter.Base.Abstract;
-using Interpreter.Base.Interfaces;
+using SoftwarePatterns.Behavioral.Interpreter.Base;
+using SoftwarePatterns.Behavioral.Interpreter.Base.Abstract;
+using SoftwarePatterns.Behavioral.Interpreter.Base.Interfaces;
 
-namespace Interpreter.Implementation
+namespace SoftwarePatterns.Behavioral.Interpreter.Implementation
 {
     internal class AddExpression : NonTerminalExpression
     {      

@@ -1,9 +1,9 @@
-﻿using Mediator.Interfaces;
+﻿using SoftwarePatterns.Behavioral.Mediator.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mediator.Implementation
+namespace SoftwarePatterns.Behavioral.Mediator.Implementation
 {
     public class Message : IMessage
     {

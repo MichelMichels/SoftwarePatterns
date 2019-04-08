@@ -1,8 +1,8 @@
 ﻿using System;
-using Interpreter.Base.Interfaces;
-using Interpreter.Implementation;
+using SoftwarePatterns.Behavioral.Interpreter.Base.Interfaces;
+using SoftwarePatterns.Behavioral.Interpreter.Implementation;
 
-namespace Interpreter
+namespace SoftwarePatterns.Behavioral.Interpreter
 {
     class Program
     {

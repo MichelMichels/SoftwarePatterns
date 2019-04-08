@@ -1,5 +1,5 @@
-﻿using Mediator.Implementation;
-using Mediator.Interfaces;
+﻿using SoftwarePatterns.Behavioral.Mediator.Implementation;
+using SoftwarePatterns.Behavioral.Mediator.Interfaces;
 using System;
 
 namespace Mediator
@@ -25,7 +25,9 @@ namespace Mediator
             Console.WriteLine("Registered users:");
 
             foreach (var user in chatroom.RegisteredUsers)
+            {
                 Console.WriteLine(user);
+            }
 
             Console.ReadKey();
         }

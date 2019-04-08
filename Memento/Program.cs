@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MichelsMichels.SoftwarePatterns.MementoMemento
+namespace SoftwarePatterns.Behavioral.MementoMemento
 {
     class Program
     {

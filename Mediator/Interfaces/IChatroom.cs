@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mediator.Interfaces
+namespace SoftwarePatterns.Behavioral.Mediator.Interfaces
 {
     // Mediator
     public interface IChatRoom

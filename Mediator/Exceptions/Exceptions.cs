@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mediator.Exceptions
+namespace SoftwarePatterns.Behavioral.Mediator.Exceptions
 {
     public class AlreadyRegisteredException : Exception { }
     public class NonRegisteredSenderException : Exception { }

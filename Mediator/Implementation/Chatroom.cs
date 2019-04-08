@@ -1,11 +1,11 @@
-﻿using Mediator.Interfaces;
-using Mediator.Exceptions;
+﻿using SoftwarePatterns.Behavioral.Mediator.Interfaces;
+using SoftwarePatterns.Behavioral.Mediator.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Runtime.CompilerServices;
 
-namespace Mediator.Implementation
+namespace SoftwarePatterns.Behavioral.Mediator.Implementation
 {
     public class ChatRoom : IChatRoom
     {

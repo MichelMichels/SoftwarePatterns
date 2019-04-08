@@ -1,8 +1,8 @@
-﻿using MichelsMichels.SoftwarePatterns.ChainOfResponsibility.Implementation;
-using Approver = MichelsMichels.SoftwarePatterns.ChainOfResponsibility.Base.Handler<string>;
+﻿using SoftwarePatterns.Behavioral.ChainOfResponsibility.Implementation;
+using Approver = SoftwarePatterns.Behavioral.ChainOfResponsibility.Base.Handler<string>;
 using System;
 
-namespace MichelsMichels.SoftwarePatterns.ChainOfResponsibility
+namespace SoftwarePatterns.Behavioral.ChainOfResponsibility
 {
     class Program
     {

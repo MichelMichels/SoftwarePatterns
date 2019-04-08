@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Interpreter.Base.Enums
+namespace SoftwarePatterns.Behavioral.Interpreter.Base.Enums
 {
     public enum MathOperation
     {

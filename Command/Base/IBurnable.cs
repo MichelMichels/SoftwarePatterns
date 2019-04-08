@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Command.Base
+namespace SoftwarePatterns.Behavioral.Command.Base
 {
     public interface IBurnable
     {

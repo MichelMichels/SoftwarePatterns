@@ -1,11 +1,11 @@
-﻿using Interpreter.Base.Interfaces;
-using Interpreter.Implementation;
+﻿using SoftwarePatterns.Behavioral.Interpreter.Base.Interfaces;
+using SoftwarePatterns.Behavioral.Interpreter.Implementation;
 using System;
 using System.Linq;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Interpreter.Extensions
+namespace SoftwarePatterns.Behavioral.Interpreter.Extensions
 {
     public static class StringExtensions
     {

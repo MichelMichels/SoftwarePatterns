@@ -1,9 +1,9 @@
-﻿using Iterator.Base.Interfaces;
+﻿using SoftwarePatterns.Behavioral.Iterator.Base.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Iterator.Implementation
+namespace SoftwarePatterns.Behavioral.Iterator.Implementation
 {
     public class Bundle<T> : IAggregate<T>
     {
