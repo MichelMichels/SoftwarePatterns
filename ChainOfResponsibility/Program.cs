@@ -12,7 +12,9 @@ namespace SoftwarePatterns.Behavioral.ChainOfResponsibility
             Approver major = new Major();
             Approver colonel = new Colonel();
 
-            captain.SetSuccessor(major).SetSuccessor(colonel);
+            captain
+                .SetSuccessor(major)
+                .SetSuccessor(colonel);
 
             captain.HandleRequest("Colonel! I need you <3");
             captain.HandleRequest("Major: How are you?");
