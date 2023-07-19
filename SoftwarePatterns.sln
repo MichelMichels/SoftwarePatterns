@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{97759316-D605-4DDE-B69E-759E5947CFC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverSample", "ObserverSample\ObserverSample.csproj", "{EF1B5D24-7F23-4BC6-B5D5-E148B7E2E2D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{46DF79C3-2BEC-4383-8681-3FE99398231D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46DF79C3-2BEC-4383-8681-3FE99398231D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46DF79C3-2BEC-4383-8681-3FE99398231D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1B5D24-7F23-4BC6-B5D5-E148B7E2E2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1B5D24-7F23-4BC6-B5D5-E148B7E2E2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1B5D24-7F23-4BC6-B5D5-E148B7E2E2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1B5D24-7F23-4BC6-B5D5-E148B7E2E2D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{C9CD5B4B-5421-4D78-9E57-E8353F9172D3} = {97759316-D605-4DDE-B69E-759E5947CFC0}
 		{87732EF1-669A-4E4E-8B2A-501CC367A015} = {97759316-D605-4DDE-B69E-759E5947CFC0}
 		{46DF79C3-2BEC-4383-8681-3FE99398231D} = {97759316-D605-4DDE-B69E-759E5947CFC0}
+		{EF1B5D24-7F23-4BC6-B5D5-E148B7E2E2D5} = {97759316-D605-4DDE-B69E-759E5947CFC0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {995828FF-7A3D-48D8-B65A-7B7313F5BCFF}
