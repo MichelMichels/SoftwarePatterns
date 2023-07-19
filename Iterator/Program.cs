@@ -1,28 +1,27 @@
-﻿using System;
+﻿using SoftwarePatterns.Behavioral.Iterator.Implementation;
+using System;
 using System.Collections.Generic;
-using SoftwarePatterns.Behavioral.Iterator.Implementation;
 
-namespace SoftwarePatterns.Behavioral.Iterator
+namespace SoftwarePatterns.Behavioral.Iterator;
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        var sticks = new[]
         {
-            var sticks = new[]
-            {
-                new Stick(3),
-                new Stick(1),
-                new Stick(9),
-            };
+            new Stick(3),
+            new Stick(1),
+            new Stick(9),
+        };
 
-            var bundle = new Bundle<Stick>(sticks);
-            var iterator = bundle.CreateIterator();
+        var bundle = new Bundle<Stick>(sticks);
+        var iterator = bundle.CreateIterator();
 
-            Console.WriteLine(iterator.Next());
-            Console.WriteLine(iterator.Next());
-            Console.WriteLine(iterator.Next());
+        Console.WriteLine(iterator.Next());
+        Console.WriteLine(iterator.Next());
+        Console.WriteLine(iterator.Next());
 
-            Console.ReadKey();
-        }
+        Console.ReadKey();
     }
 }

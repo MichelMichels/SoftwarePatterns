@@ -1,25 +1,24 @@
-﻿using System;
+﻿using SoftwarePatterns.Behavioral.Interpreter.Base.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using SoftwarePatterns.Behavioral.Interpreter.Base.Interfaces;
 
-namespace SoftwarePatterns.Behavioral.Interpreter.Implementation
+namespace SoftwarePatterns.Behavioral.Interpreter.Implementation;
+
+internal class MultiplyExpression : IExpression
 {
-    internal class MultiplyExpression : IExpression
+    private IExpression left, right;
+
+    private MultiplyExpression(IExpression left, IExpression right)
     {
-        private IExpression left, right;
+        this.left = left;
+        this.right = right;
+    }
 
-        private MultiplyExpression(IExpression left, IExpression right)
-        {
-            this.left = left;
-            this.right = right;
-        }
+    public static MultiplyExpression Make(IExpression left, IExpression right) => new MultiplyExpression(left, right);
 
-        public static MultiplyExpression Make(IExpression left, IExpression right) => new MultiplyExpression(left, right);
-
-        public int Interpret()
-        {
-            return left.Interpret() * right.Interpret();
-        }
+    public int Interpret()
+    {
+        return left.Interpret() * right.Interpret();
     }
 }

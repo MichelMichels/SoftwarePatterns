@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoftwarePatterns.Behavioral.Interpreter.Base.Interfaces
+namespace SoftwarePatterns.Behavioral.Interpreter.Base.Interfaces;
+
+public interface IExpression
 {
-    public interface IExpression
-    {
-        int Interpret();
-    }
+    int Interpret();
 }

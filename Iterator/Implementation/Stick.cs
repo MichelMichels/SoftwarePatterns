@@ -2,24 +2,23 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoftwarePatterns.Behavioral.Iterator.Implementation
+namespace SoftwarePatterns.Behavioral.Iterator.Implementation;
+
+public class Stick
 {
-    public class Stick
-    {      
-        public Stick()
-        {
-            Length = 1;
-        }
-        public Stick(int length)
-        {
-            Length = length;
-        }
+    public Stick()
+    {
+        Length = 1;
+    }
+    public Stick(int length)
+    {
+        Length = length;
+    }
 
-        public int Length { get; set; }
+    public int Length { get; set; }
 
-        public override string ToString()
-        {
-            return $"I'm a stick of length {Length}!";
-        }
+    public override string ToString()
+    {
+        return $"I'm a stick of length {Length}!";
     }
 }

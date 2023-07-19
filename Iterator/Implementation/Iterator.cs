@@ -4,22 +4,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SoftwarePatterns.Behavioral.Iterator.Implementation
+namespace SoftwarePatterns.Behavioral.Iterator.Implementation;
+
+public class Iterator<T> : IIterator<T>
 {
-    public class Iterator<T> : IIterator<T>
+    private int index = -1;
+    private IEnumerable<T> enumerable;
+
+    public Iterator(IEnumerable<T> enumerable)
     {
-        private int index = -1;
-        private IEnumerable<T> enumerable;
+        this.enumerable = enumerable;
+    }
 
-        public Iterator(IEnumerable<T> enumerable)
-        {
-            this.enumerable = enumerable;
-        }
-
-        public T Next()
-        {
-            index++;
-            return enumerable.ElementAt(index);
-        }
+    public T Next()
+    {
+        index++;
+        return enumerable.ElementAt(index);
     }
 }

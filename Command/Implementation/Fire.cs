@@ -1,21 +1,20 @@
-﻿using System;
+﻿using SoftwarePatterns.Behavioral.Command.Base;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using SoftwarePatterns.Behavioral.Command.Base;
 
-namespace SoftwarePatterns.Behavioral.Command.Implementation
+namespace SoftwarePatterns.Behavioral.Command.Implementation;
+
+// Receiver
+public class Fire : IBurnable
 {
-    // Receiver
-    public class Fire : IBurnable
+    public void Ignite()
     {
-        public void Ignite()
-        {
-            Console.WriteLine("The fire burns!");
-        }
+        Console.WriteLine("The fire burns!");
+    }
 
-        public void Extinguish()
-        {
-            Console.WriteLine("The fire is out!");
-        }
+    public void Extinguish()
+    {
+        Console.WriteLine("The fire is out!");
     }
 }
