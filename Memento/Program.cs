@@ -1,12 +1,15 @@
-﻿using System;
+﻿using SoftwarePatterns.Behavioral.Memento.Implementation;
+using System.Collections.Generic;
 
-namespace SoftwarePatterns.Behavioral.MementoMemento
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+List<MementoObject> savedStates = new();
+
+Originator originator = new();
+originator.Set("State1");
+originator.Set("State2");
+savedStates.Add(originator.SaveToMemento());
+originator.Set("State3");
+
+savedStates.Add(originator.SaveToMemento());
+originator.Set("State4");
+
+originator.RestoreFromMemento(savedStates[1]);

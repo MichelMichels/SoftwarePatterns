@@ -1,11 +1,26 @@
-﻿using SoftwarePatterns.Behavioral.Memento.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System;
 
-namespace SoftwarePatterns.Behavioral.Memento.Implementation
+namespace SoftwarePatterns.Behavioral.Memento.Implementation;
+
+public class Originator
 {
-    public class Originator : IMementable
+    private string state;
+
+    public void Set(string state)
     {
+        this.state = state;
+        Console.WriteLine($"Originator: Setting state to {state}");
+    }
+
+    public MementoObject SaveToMemento()
+    {
+        Console.WriteLine("Originator: Saving to MementoObject.");
+        return new MementoObject(state);
+    }
+
+    public void RestoreFromMemento(MementoObject memento)
+    {
+        state = memento.GetSavedState();
+        Console.WriteLine($"Originator: State after restoring from Memento: {state}");
     }
 }
