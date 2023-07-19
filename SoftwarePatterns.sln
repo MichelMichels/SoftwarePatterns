@@ -3,28 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Memento\Memento.csproj", "{145938A6-AFFA-486C-AAD4-8CC4C13A1BAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Behavioral\MementoSample\MementoSample.csproj", "{145938A6-AFFA-486C-AAD4-8CC4C13A1BAF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{120DA806-D6B9-4612-AACA-6DEECE42A6BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "Behavioral\ChainOfResponsibilitySample\ChainOfResponsibilitySample.csproj", "{120DA806-D6B9-4612-AACA-6DEECE42A6BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{95064271-E47D-4F39-8E48-90A562A4E051}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Behavioral\CommandSample\CommandSample.csproj", "{95064271-E47D-4F39-8E48-90A562A4E051}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Interpreter\Interpreter.csproj", "{C9CD5B4B-5421-4D78-9E57-E8353F9172D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Behavioral\InterpreterSample\InterpreterSample.csproj", "{C9CD5B4B-5421-4D78-9E57-E8353F9172D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{87732EF1-669A-4E4E-8B2A-501CC367A015}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Behavioral\IteratorSample\IteratorSample.csproj", "{87732EF1-669A-4E4E-8B2A-501CC367A015}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{46DF79C3-2BEC-4383-8681-3FE99398231D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Behavioral\MediatorSample\MediatorSample.csproj", "{46DF79C3-2BEC-4383-8681-3FE99398231D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{97759316-D605-4DDE-B69E-759E5947CFC0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverSample", "ObserverSample\ObserverSample.csproj", "{EF1B5D24-7F23-4BC6-B5D5-E148B7E2E2D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverSample", "Behavioral\ObserverSample\ObserverSample.csproj", "{EF1B5D24-7F23-4BC6-B5D5-E148B7E2E2D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60D2ECDB-9E0F-448D-9035-114D65501F29}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateSample", "StateSample\StateSample.csproj", "{17ED5DED-58BE-4E49-9858-0E2825E735C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateSample", "Behavioral\StateSample\StateSample.csproj", "{17ED5DED-58BE-4E49-9858-0E2825E735C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
