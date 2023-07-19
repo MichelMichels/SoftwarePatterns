@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using TemplateMethodSample;
+
+PdfMiner pdfMiner = new();
+pdfMiner.Mine("test");
+

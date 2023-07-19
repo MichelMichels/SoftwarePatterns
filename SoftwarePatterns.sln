@@ -26,7 +26,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateSample", "Behavioral\StateSample\StateSample.csproj", "{17ED5DED-58BE-4E49-9858-0E2825E735C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategySample", "Behavioral\StrategySample\StrategySample.csproj", "{CA125C6C-ADEE-4D6F-8F1F-73C72EE8C4DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategySample", "Behavioral\StrategySample\StrategySample.csproj", "{CA125C6C-ADEE-4D6F-8F1F-73C72EE8C4DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodSample", "Behavioral\TemplateMethodSample\TemplateMethodSample.csproj", "{2E1EF1E0-2002-4A6B-A37C-4E81BE79451E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,6 +72,10 @@ Global
 		{CA125C6C-ADEE-4D6F-8F1F-73C72EE8C4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA125C6C-ADEE-4D6F-8F1F-73C72EE8C4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA125C6C-ADEE-4D6F-8F1F-73C72EE8C4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1EF1E0-2002-4A6B-A37C-4E81BE79451E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1EF1E0-2002-4A6B-A37C-4E81BE79451E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1EF1E0-2002-4A6B-A37C-4E81BE79451E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1EF1E0-2002-4A6B-A37C-4E81BE79451E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +90,7 @@ Global
 		{EF1B5D24-7F23-4BC6-B5D5-E148B7E2E2D5} = {97759316-D605-4DDE-B69E-759E5947CFC0}
 		{17ED5DED-58BE-4E49-9858-0E2825E735C6} = {97759316-D605-4DDE-B69E-759E5947CFC0}
 		{CA125C6C-ADEE-4D6F-8F1F-73C72EE8C4DF} = {97759316-D605-4DDE-B69E-759E5947CFC0}
+		{2E1EF1E0-2002-4A6B-A37C-4E81BE79451E} = {97759316-D605-4DDE-B69E-759E5947CFC0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {995828FF-7A3D-48D8-B65A-7B7313F5BCFF}
