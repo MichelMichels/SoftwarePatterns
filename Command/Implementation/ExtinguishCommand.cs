@@ -1,22 +1,21 @@
-﻿using System;
+﻿using SoftwarePatterns.Behavioral.Command.Base;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using SoftwarePatterns.Behavioral.Command.Base;
 
-namespace SoftwarePatterns.Behavioral.Command.Implementation
+namespace SoftwarePatterns.Behavioral.Command.Implementation;
+
+public class ExtinguishCommand : ICommand
 {
-    public class ExtinguishCommand : ICommand
+    private IBurnable burnable;
+
+    public ExtinguishCommand(IBurnable burnable)
     {
-        private IBurnable burnable;
+        this.burnable = burnable;
+    }
 
-        public ExtinguishCommand(IBurnable burnable)
-        {
-            this.burnable = burnable;
-        }
-
-        public void Execute()
-        {
-            burnable.Extinguish();
-        }
+    public void Execute()
+    {
+        burnable.Extinguish();
     }
 }

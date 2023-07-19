@@ -4,18 +4,17 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoftwarePatterns.Behavioral.Interpreter.Implementation
+namespace SoftwarePatterns.Behavioral.Interpreter.Implementation;
+
+public class PowerExpression : NonTerminalExpression
 {
-    public class PowerExpression : NonTerminalExpression
+    private PowerExpression(IExpression left, IExpression right) : base(left, right)
+    { }
+
+    public static PowerExpression Make(IExpression left, IExpression right) => new PowerExpression(left, right);
+
+    public override int Interpret()
     {
-        private PowerExpression(IExpression left, IExpression right) : base(left, right)
-        { }
-
-        public static PowerExpression Make(IExpression left, IExpression right) => new PowerExpression(left, right);
-
-        public override int Interpret()
-        {
-            return (int)Math.Pow(left.Interpret(), right.Interpret());
-        }
+        return (int)Math.Pow(left.Interpret(), right.Interpret());
     }
 }

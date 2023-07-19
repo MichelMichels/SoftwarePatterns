@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoftwarePatterns.Behavioral.Interpreter.Base.Enums
+namespace SoftwarePatterns.Behavioral.Interpreter.Base.Enums;
+
+public enum MathOperation
 {
-    public enum MathOperation
-    {
-        Add,
-        Subtract,
-        Multiply,
-        Divide,
-        Power,
-    }
+    Add,
+    Subtract,
+    Multiply,
+    Divide,
+    Power,
 }

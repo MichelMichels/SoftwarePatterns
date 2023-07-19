@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoftwarePatterns.Behavioral.Command.Base
+namespace SoftwarePatterns.Behavioral.Command.Base;
+
+public interface ICommand
 {
-    public interface ICommand
-    {
-        void Execute();
-    }
+    void Execute();
 }

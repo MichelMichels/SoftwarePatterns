@@ -3,24 +3,23 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoftwarePatterns.Behavioral.Iterator.Implementation
+namespace SoftwarePatterns.Behavioral.Iterator.Implementation;
+
+public class Bundle<T> : IAggregate<T>
 {
-    public class Bundle<T> : IAggregate<T>
+    private IEnumerable<T> enumerable;
+
+    public Bundle()
     {
-        private IEnumerable<T> enumerable;
+        enumerable = new List<T>();
+    }
+    public Bundle(IEnumerable<T> enumerable)
+    {
+        this.enumerable = enumerable;
+    }
 
-        public Bundle()
-        {
-            enumerable = new List<T>();
-        }
-        public Bundle(IEnumerable<T> enumerable) 
-        {
-            this.enumerable = enumerable;
-        }
-
-        public IIterator<T> CreateIterator()
-        {
-            return new Iterator<T>(enumerable);
-        }
+    public IIterator<T> CreateIterator()
+    {
+        return new Iterator<T>(enumerable);
     }
 }

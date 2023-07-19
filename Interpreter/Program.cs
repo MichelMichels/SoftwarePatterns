@@ -1,24 +1,23 @@
-﻿using System;
-using SoftwarePatterns.Behavioral.Interpreter.Base.Interfaces;
+﻿using SoftwarePatterns.Behavioral.Interpreter.Base.Interfaces;
 using SoftwarePatterns.Behavioral.Interpreter.Implementation;
+using System;
 
-namespace SoftwarePatterns.Behavioral.Interpreter
+namespace SoftwarePatterns.Behavioral.Interpreter;
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            IExpression expr;
+        IExpression expr;
 
-            while(true)
-            {
-                Console.Write("Give formula: ");
-                var formula = Console.ReadLine();
-                expr = FormulaExpression.Make(formula);
-                
-                Console.WriteLine(expr.Interpret());
-                Console.WriteLine();
-            }
+        while (true)
+        {
+            Console.Write("Give formula: ");
+            var formula = Console.ReadLine();
+            expr = FormulaExpression.Make(formula);
+
+            Console.WriteLine(expr.Interpret());
+            Console.WriteLine();
         }
     }
 }

@@ -17,7 +17,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{97759316-D605-4DDE-B69E-759E5947CFC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverSample", "ObserverSample\ObserverSample.csproj", "{EF1B5D24-7F23-4BC6-B5D5-E148B7E2E2D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverSample", "ObserverSample\ObserverSample.csproj", "{EF1B5D24-7F23-4BC6-B5D5-E148B7E2E2D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60D2ECDB-9E0F-448D-9035-114D65501F29}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -3,21 +3,20 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoftwarePatterns.Behavioral.Interpreter.Base.Abstract
+namespace SoftwarePatterns.Behavioral.Interpreter.Base.Abstract;
+
+public class NonTerminalExpression : IExpression
 {
-    public class NonTerminalExpression : IExpression
+    protected IExpression left, right;
+
+    protected NonTerminalExpression(IExpression left, IExpression right)
     {
-        protected IExpression left, right;
+        this.left = left;
+        this.right = right;
+    }
 
-        protected NonTerminalExpression(IExpression left, IExpression right)
-        {
-            this.left = left;
-            this.right = right;
-        }
-
-        public virtual int Interpret()
-        {
-            throw new NotImplementedException("Must override!");
-        }
+    public virtual int Interpret()
+    {
+        throw new NotImplementedException("Must override!");
     }
 }

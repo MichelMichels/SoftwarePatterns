@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoftwarePatterns.Behavioral.Command.Base
+namespace SoftwarePatterns.Behavioral.Command.Base;
+
+public interface IBurnable
 {
-    public interface IBurnable
-    {
-        void Ignite();
-        void Extinguish();
-    }
+    void Ignite();
+    void Extinguish();
 }
