@@ -22,6 +22,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60D2ECDB-9E0F-448D-9035-114D65501F29}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateSample", "Behavioral\StateSample\StateSample.csproj", "{17ED5DED-58BE-4E49-9858-0E2825E735C6}"
@@ -30,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategySample", "Behaviora
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethodSample", "Behavioral\TemplateMethodSample\TemplateMethodSample.csproj", "{2E1EF1E0-2002-4A6B-A37C-4E81BE79451E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorSample", "Behavioral\VisitorSample\VisitorSample.csproj", "{83DD9C06-2E1D-4CC6-942A-ECB845EDB133}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorSample", "Behavioral\VisitorSample\VisitorSample.csproj", "{83DD9C06-2E1D-4CC6-942A-ECB845EDB133}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
