@@ -19,6 +19,16 @@
 
 ### Patterns
 
-|Name|Type|Page in book|
-|---|---|---|
-|[Chain Of Responsibility](Behavioral/ChainOfResponsibilitySample)| Behavioral | 223 |
+| Name                                                              | Type       | Page in book |
+| ----------------------------------------------------------------- | ---------- | ------------ |
+| [Chain Of Responsibility](Behavioral/ChainOfResponsibilitySample) | Behavioral | 223          |
+| [Command](Behavioral/CommandSample)                               | Behavioral | 233          |
+| [Interpreter](Behavioral/InterpreterSample)                       | Behavioral | 243          |
+| [Iterator](Behavioral/IteratorSample)                             | Behavioral | 257          |
+| [Mediator](Behavioral/MediatorSample)                             | Behavioral | 273          |
+| [Memento](Behavioral/MementoSample)                               | Behavioral | 283          |
+| [Observer](Behavioral/ObserverSample)                             | Behavioral | 293          |
+| [State](Behavioral/StateSample)                                   | Behavioral | 305          |
+| [Strategy](Behavioral/StrategySample)                             | Behavioral | 315          |
+| [Template Method](Behavioral/TemplateMethodSample)                | Behavioral | 325          |
+| [Visitor](Behavioral/VisitorSample)                               | Behavioral | 331          |
